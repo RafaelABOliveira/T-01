@@ -1,0 +1,4 @@
+Esse sistema, é um sistema pra um grande app de delivery chamado World Delivery.
+O Banco de Dados será 1 para cadastro de usuários e onde também receberá os dados de usuário, 1 para pagamento (onde será aplicado uma segurança mais rígida) e teremos backup a cada 3 horas para que a carga de dados não seja tão grande para subir, como se eu fosse carregar a cada 24 horas um app a nível mundial, esses Banco de Dados ficarão com a própria empresa.
+Vamos ter também uma API que será colocada no EC2 da AWS (Amazon Web Services), para garantir maior grau de disponibilidade e confiança no sistema. Esse app terá uma versão Web também que será colocada no EC2 da AWS também.
+Na empresa teremos vários computadores que replicarão informações e em caso de falha, a API retornará um erro e o app irá mostrar o erro ao usuário(pagamento, transferência de dados, etc).
