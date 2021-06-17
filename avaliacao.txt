@@ -17,5 +17,8 @@ AV2
 
 T-04 = 2.5 pts
 
+T-05 = 0.0
+    Para o T-05 era esperado ver colaboração (leitura e escrita) com outros 2 projetos da classe
+
 
 
